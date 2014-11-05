@@ -1,6 +1,4 @@
 import scala.concurrent.duration._
-import scalaz._
-import Scalaz._
 
 object Agenda {
   "Scala.io" + 5.minutes
