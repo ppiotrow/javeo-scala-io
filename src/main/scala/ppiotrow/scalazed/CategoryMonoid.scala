@@ -3,7 +3,7 @@ package ppiotrow.scalazed
 import scalaz._
 import Scalaz._
 
-object CathegoryMonoid extends App {
+object CategoryMonoid extends App {
 //  A Monoid is a structure with an identity element and an associative binary operation
   //6 + 0 === 6
   //6 * 1 === 6

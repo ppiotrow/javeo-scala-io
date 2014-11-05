@@ -3,7 +3,7 @@ package ppiotrow.scalazed
 import scalaz._
 import Scalaz._
 
-object CathegoryFunctor {
+object CategoryFunctor {
   //A Functor is something that can be mapped:
   def addSix[F[_]](toAdd: F[Int])(implicit mapper: Functor[F]): F[Int] = {
     mapper.map(toAdd)(_ + 6)
