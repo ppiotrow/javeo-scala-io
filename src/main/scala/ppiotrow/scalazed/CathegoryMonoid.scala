@@ -21,7 +21,7 @@ object CathegoryMonoid extends App {
   val sum = List(Some(5), None, Some(3)).concatenate
   println(sum)
 
-  val multiplication = Tags.Multiplication(5) |+| 7
+  val multiplication = Tags.Multiplication(5) |+| Tags.Multiplication(7)
 
   println(s"multiplication = $multiplication")
 }
