@@ -1,4 +1,4 @@
 Scala.io
 ========
 
-Summary of knownedge gained (in)directly during Scala.io
+Summary of knowledge gained (in)directly during Scala.io
